@@ -733,11 +733,10 @@ footer ul.quicklinks {
     text-transform: none;
 }
 
-ul.social-buttons {
+social-buttons {
     margin-bottom: 0;
 }
-
-ul.social-buttons li a {
+social-buttons a {
     display: block;
     background-color: #222222;
     height: 40px;
@@ -752,9 +751,9 @@ ul.social-buttons li a {
     transition: all 0.3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+social-buttons a:hover,
+social-buttons a:focus,
+social-buttons a:active {
     background-color: firebrick;
 }
 
