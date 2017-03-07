@@ -585,6 +585,11 @@ section h3.section-subheading {
     border: 7px solid firebrick;
 }
 
+.img-sponsor {
+  width:215px;
+  height: auto;
+}
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
