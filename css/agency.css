@@ -5,9 +5,9 @@
  */
 
 body {
-    overflow-x: hidden;
-    font-family: "Squad One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: gray;
+  overflow-x: hidden;
+  font-family: "Montserrat", Times, serif;:
+  background-color: rgba(65, 61, 61, 0.86)
 }
 
 .text-muted {
@@ -61,7 +61,7 @@ h3 {
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -82,7 +82,7 @@ h6 {
     color: white;
     background-color: firebrick;
     border-color: firebrick;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -131,7 +131,7 @@ fieldset[disabled] .btn-primary.active {
     color: white;
     background-color: firebrick;
     border-color: firebrick;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
@@ -186,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-custom .navbar-brand {
     color: firebrick;
-    font-family: "Squad One", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: "Montserrat", Times, serif;:
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -203,7 +203,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
     background-color: firebrick;
     border-color: firebrick;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     color: firebrick;
     font-size: 12px;
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom .nav li a {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -242,7 +242,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media (min-width: 768px) {
     .navbar-custom {
-        background-color: transparent;
+        background-color: rgb(61, 61, 61);
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
@@ -289,7 +289,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -297,7 +297,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
@@ -311,14 +311,14 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
     header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Montserrat", Times, serif;:
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px;
     }
     header .intro-text .intro-heading {
-        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Montserrat", Times, serif;:
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
@@ -350,7 +350,7 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 16px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: none;
     font-style: italic;
     font-weight: 400;
@@ -429,7 +429,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     font-style: italic;
     font-size: 16px;
     margin: 0;
@@ -689,7 +689,7 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
@@ -697,7 +697,7 @@ section#contact::-webkit-input-placeholder {
 
 section#contact:-moz-placeholder {
     /* Firefox 18- */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
@@ -705,14 +705,14 @@ section#contact:-moz-placeholder {
 
 section#contact::-moz-placeholder {
     /* Firefox 19+ */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
 }
 
 section#contact:-ms-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     font-weight: 700;
     color: #eeeeee;
@@ -729,7 +729,7 @@ footer {
 
 footer span.copyright {
     line-height: 40px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     text-transform: none;
 }
@@ -737,7 +737,7 @@ footer span.copyright {
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     text-transform: uppercase;
     text-transform: none;
 }
@@ -801,7 +801,7 @@ social-buttons a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Times, serif;:
     font-style: italic;
     font-size: 16px;
 }
