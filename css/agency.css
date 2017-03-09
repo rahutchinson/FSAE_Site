@@ -10,17 +10,6 @@ body {
     : background-color: rgba(65, 61, 61, 0.86)
 }
 
-.mobile_device_380px {
-    display: none;
-}
-
-@media only screen and (max-device-width: 380px) {
-       .mobile_device_380px{
-           display: block;
-       }
-   .desktop {
-       display: none;
-   }
 
 .text-muted {
     color: #777777;
@@ -93,7 +82,7 @@ h1, h2, h3 {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
     color: firebrick;
-    background-color: firebrick;
+    background-color: white;
     border-color: firebrick;
 }
 
@@ -829,6 +818,14 @@ img::selection {
 img::-moz-selection {
     background: transparent;
 }
+
+.mobileShow { display: none;}
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobileShow { display: inline;}}
 
 body {
     webkit-tap-highlight-color: firebrick;
