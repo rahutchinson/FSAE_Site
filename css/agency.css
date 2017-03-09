@@ -191,7 +191,7 @@ h1, h2, h3 {
 @media (min-width: 768px) {
     .navbar-custom {
         background-color: rgb(61, 61, 61);
-        padding: 25px 0;
+        /*padding: 25px 0;*/
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
@@ -820,13 +820,25 @@ img::-moz-selection {
     background: transparent;
 }
 
-.mobileShow { display: none;}
+.mobileShow {
+  display: none;
+}
+
+.desktop {
+  display: inherit;
+}
 
 /* Smartphone Portrait and Landscape */
 
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 480px){ .mobileShow { display: inline;}}
+and (max-device-width : 480px)
+{
+  .mobileShow { display: inline;}
+  .desktop {
+    display: none;
+  }
+}
 
 body {
     webkit-tap-highlight-color: firebrick;
