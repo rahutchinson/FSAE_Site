@@ -231,6 +231,15 @@ fieldset[disabled] .btn-xl.active {
   height: auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
